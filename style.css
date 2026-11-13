@@ -1,0 +1,585 @@
+/* === FONT SETUP === */
+@font-face {
+  font-family: "Orbitron";
+  src: url("./fonts/Orbitron-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("./fonts/Orbitron-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/* === GENERAL & ROOT STYLES === */
+:root {
+  --primary-color: #00f7ff;
+  --secondary-color: #ff00cc;
+  --dark-bg: #0c0c1c;
+  --text-color: #f0f0f0;
+  --glow-primary: 0 0 8px var(--primary-color), 0 0 16px var(--primary-color),
+    0 0 24px rgba(0, 247, 255, 0.5);
+  --glow-secondary: 0 0 8px var(--secondary-color),
+    0 0 16px var(--secondary-color), 0 0 24px rgba(255, 0, 204, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+/* === BACKGROUND VIDEO === */
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  /* Blur & darkening sudah "dipanggang" langsung ke file video (offline, sekali),
+     jadi TIDAK perlu filter CSS real-time lagi di sini - itu yang paling berat
+     karena berebutan GPU sama inferensi PoseNet setiap frame. */
+  opacity: 0.8;
+}
+
+/* === SPA PAGE STRUCTURE === */
+#app-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  animation: page-fade-in 0.5s ease-in-out;
+  overflow-y: auto;
+}
+
+.page.active {
+  display: flex;
+}
+
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* === GLASSMORPHISM CARD === */
+.page-content {
+  /* Sebelumnya pakai backdrop-filter: blur(10px) - itu blur real-time KEDUA yang
+     ikut membebani GPU tiap frame (di atas video yang sudah diam-diam blur juga).
+     Diganti jadi background lebih pekat tanpa blur - visualnya tetap "glassy"
+     tapi nol biaya render tambahan. */
+  background: rgba(12, 12, 28, 0.82);
+  border: 2px solid var(--primary-color);
+  border-radius: 16px;
+  box-shadow: var(--glow-primary);
+  padding: 2.5rem 3rem;
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+#welcome-page .page-content {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* === TYPOGRAPHY & LOGO === */
+.logo-main {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-shadow: var(--glow-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+/* === BUTTONS === */
+.btn {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  margin: 0.5rem;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--dark-bg);
+  border-color: var(--primary-color);
+  box-shadow: var(--glow-primary);
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px var(--primary-color), 0 0 24px var(--primary-color),
+    0 0 48px rgba(0, 247, 255, 0.7);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 247, 255, 0.1);
+  box-shadow: var(--glow-primary);
+  transform: translateY(-2px);
+}
+
+.btn-group {
+  margin-top: 2rem;
+}
+
+/* === HOW-TO PAGE (diadaptasi dari howto.css, sekarang jadi bagian page-content) === */
+.howto-header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+.howto-header h2 {
+  font-size: 2.2rem;
+  color: var(--secondary-color);
+  text-shadow: var(--glow-secondary);
+}
+
+.howto-body {
+  text-align: left;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+.howto-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+.howto-body li {
+  margin-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  position: relative;
+}
+.howto-body li::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+.howto-body strong {
+  color: var(--primary-color);
+}
+
+.pose-guide-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0 1rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.pose-item {
+  text-align: center;
+  width: 150px;
+}
+.pose-item img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  box-shadow: var(--glow-secondary);
+  margin-bottom: 0.6rem;
+  animation: float 3s ease-in-out infinite;
+}
+.pose-item div {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+.howto-footer {
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+  border-top: 1px solid var(--primary-color);
+  text-align: center;
+}
+
+/* === KALIBRASI POSE PAGE === */
+#calibration-webcam-container {
+  display: inline-block;
+  margin: 1rem auto;
+}
+#calibration-webcam-container canvas {
+  width: 320px !important;
+  height: 320px !important;
+  border-radius: 8px;
+}
+#calibration-readout {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+#calibration-pose-text,
+#calibration-confidence {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: var(--glow-secondary);
+}
+
+/* === LEVEL SELECTION PAGE === */
+.level-selection {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.btn-level {
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  box-shadow: var(--glow-secondary);
+  transition: all 0.3s ease;
+}
+.btn-level:hover {
+  background-color: var(--secondary-color);
+  color: var(--dark-bg);
+  transform: scale(1.05);
+  box-shadow: 0 0 12px var(--secondary-color), 0 0 24px var(--secondary-color),
+    0 0 48px rgba(255, 179, 240, 0.8);
+}
+.btn-level[data-difficulty="easy"] {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  box-shadow: var(--glow-primary);
+}
+.btn-level[data-difficulty="easy"]:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: 0 0 12px var(--primary-color), 0 0 24px var(--primary-color);
+}
+.btn-level[data-difficulty="hard"] {
+  color: red;
+  border-color: red;
+  box-shadow: 0 0 8px red;
+}
+.btn-level[data-difficulty="hard"]:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 12px red, 0 0 24px red;
+}
+
+/* === ENTER NAME PAGE === */
+.input-main {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(12, 12, 28, 0.8);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: var(--glow-primary);
+  transition: all 0.3s ease;
+}
+.input-main::placeholder {
+  color: rgba(0, 247, 255, 0.4);
+}
+.input-main:focus {
+  outline: none;
+  box-shadow: 0 0 12px var(--primary-color), 0 0 24px var(--primary-color);
+}
+
+/* === LEADERBOARD PAGE === */
+#leaderboard-page .page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 900px;
+}
+
+.leaderboard-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+#leaderboard-song-select,
+#leaderboard-difficulty-select {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  font-family: "Orbitron";
+  background-color: var(--dark-bg);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--glow-primary);
+  max-width: 180px;
+}
+
+#leaderboard-container {
+  width: 100%;
+  max-height: 50vh;
+  overflow-y: auto;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: var(--glow-primary);
+}
+#leaderboard-container h2 {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+#leaderboard-container table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+#leaderboard-container th,
+#leaderboard-container td {
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid rgba(0, 247, 255, 0.2);
+  text-align: left;
+  font-size: 0.85rem;
+}
+#leaderboard-container th {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+#leaderboard-container td:nth-child(1) {
+  width: 10%;
+  font-weight: bold;
+}
+#leaderboard-container td:nth-child(2) {
+  font-weight: bold;
+}
+#leaderboard-container td:nth-child(3) {
+  color: var(--primary-color);
+}
+#leaderboard-container td:nth-child(4) {
+  color: var(--text-color);
+}
+#leaderboard-container td:nth-child(5) {
+  color: var(--secondary-color);
+}
+
+#leaderboard-container::-webkit-scrollbar {
+  width: 8px;
+}
+#leaderboard-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+#leaderboard-container::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  border: 2px solid var(--dark-bg);
+}
+#leaderboard-container::-webkit-scrollbar-thumb:hover {
+  background-color: #fff;
+}
+
+/* === GLOBAL NAVIGATION BUTTONS === */
+.global-nav-btn {
+  position: absolute;
+  top: 20px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+#global-leaderboard-btn {
+  left: 20px;
+}
+#global-howto-btn {
+  right: 20px;
+}
+
+/* === GAME PAGE === */
+#game-page .page-content {
+  display: none;
+}
+#game-page {
+  justify-content: space-between;
+}
+
+.game-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.music-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(12, 12, 28, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+  width: 300px;
+}
+#music-select {
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  font-family: "Orbitron";
+  background-color: var(--dark-bg);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  flex-grow: 1;
+  max-width: 100%;
+  width: 100%;
+}
+
+#game-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+}
+
+.game-container {
+  background: rgba(12, 12, 28, 0.7);
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  position: relative;
+  box-shadow: var(--glow-primary);
+}
+
+.container-title {
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-color);
+  color: var(--dark-bg);
+  padding: 0.2rem 1.5rem;
+  border-radius: 0 0 8px 8px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#webcam-container canvas {
+  width: 400px !important;
+  height: 400px !important;
+  border-radius: 8px;
+}
+
+#game-canvas {
+  background-color: #000;
+  border-radius: 8px;
+}
+
+#game-footer {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  text-shadow: var(--glow-primary);
+}
+
+#pose-result {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: var(--glow-secondary);
+}
+
+#restart-btn {
+  display: none;
+}
+
+/* === RESPONSIVE (dari howto.css, disesuaikan) === */
+@media (max-width: 768px) {
+  .howto-header h2 {
+    font-size: 1.8rem;
+  }
+  .pose-guide-container {
+    flex-direction: column;
+  }
+  #game-main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .howto-body {
+    font-size: 0.9rem;
+  }
+}

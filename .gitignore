@@ -1,0 +1,23 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency folders (jaga-jaga kalau nanti ditambah tooling)
+node_modules/
+vendor/
+
+# Log & temp files
+*.log
+*.tmp
+
+# Environment / config lokal (kalau nanti ada info sensitif, misal kredensial DB)
+.env
+.env.local
+config.local.php

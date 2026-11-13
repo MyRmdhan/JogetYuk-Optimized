@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JogetYuk - Rhythm Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <video id="bg-video" autoplay muted loop>
+      <source src="assets/video/background3.mp4" type="video/mp4" />
+      Browser kamu tidak mendukung video background.
+    </video>
+
+    <div id="app-container">
+      <div id="global-nav-buttons">
+        <button id="global-leaderboard-btn" class="btn btn-secondary global-nav-btn" data-target="leaderboard-page">
+          Leaderboard
+        </button>
+        <button id="global-howto-btn" class="btn btn-secondary global-nav-btn" data-target="howto-page">
+          Cara Bermain
+        </button>
+      </div>
+
+      <!-- ===== Welcome Page ===== -->
+      <section id="welcome-page" class="page active">
+        <div class="page-content">
+          <img src="assets/images/logo.png" alt="Logo JogetYuk" class="logo-main" />
+          <h1 class="title">JogetYuk</h1>
+          <p class="subtitle">Raih Skor Sebanyak-banyaknya Dan Raih Leaderboard Tertinggi !!!</p>
+          <div class="btn-group">
+            <button id="welcome-start-btn" class="btn btn-primary" data-target="enter-name-page">
+              Mulai
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== How-to Page ===== -->
+      <section id="howto-page" class="page">
+        <div class="page-content">
+          <div class="howto-header">
+            <h2>Cara Bermain</h2>
+          </div>
+          <div class="howto-body">
+            <ul>
+              <li>
+                <strong>Ikuti arah panah</strong> yang muncul dan bergerak menuju garis target di bagian atas arena.
+              </li>
+              <li>
+                <strong>Lakukan pose tubuh</strong> yang sesuai (kiri, atas, kanan) tepat saat arrow mendekati garis target.
+              </li>
+              <li>
+                <strong>Perhatikan HP</strong> di bagian bawah arena — permainan berakhir kalau HP habis sebelum lagu selesai.
+              </li>
+              <li>
+                Belum yakin posemu kedeteksi dengan baik? Coba dulu di halaman <strong>Kalibrasi Pose</strong> sebelum main.
+              </li>
+            </ul>
+
+            <div class="pose-guide-container">
+              <div class="pose-item">
+                <img src="assets/images/poses/pose-kiri.png" alt="Pose Kiri" />
+                <div>Kiri</div>
+              </div>
+              <div class="pose-item">
+                <img src="assets/images/poses/pose-atas.png" alt="Pose Atas" />
+                <div>Atas</div>
+              </div>
+              <div class="pose-item">
+                <img src="assets/images/poses/pose-kanan.png" alt="Pose Kanan" />
+                <div>Kanan</div>
+              </div>
+            </div>
+          </div>
+          <div class="howto-footer">
+            <button id="howto-calibrate-btn" class="btn btn-secondary">Kalibrasi Pose</button>
+            <button class="btn btn-primary" data-target="welcome-page">Kembali</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Kalibrasi Pose Page ===== -->
+      <section id="calibration-page" class="page">
+        <div class="page-content">
+          <h1 class="title">Kalibrasi Pose</h1>
+          <p class="subtitle">Coba lakukan pose kiri / atas / kanan, pastikan namanya muncul jelas di bawah ini.</p>
+
+          <div id="calibration-webcam-container" class="game-container"></div>
+
+          <div id="calibration-readout">
+            <p>Pose Terdeteksi: <span id="calibration-pose-text">-</span></p>
+            <p>Keyakinan: <span id="calibration-confidence">0</span>%</p>
+          </div>
+
+          <div class="btn-group">
+            <button id="calibration-done-btn" class="btn btn-primary">Selesai</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Enter Name Page ===== -->
+      <section id="enter-name-page" class="page">
+        <div class="page-content">
+          <h1 class="title">Masukkan Nama Anda</h1>
+          <input type="text" id="player-name-input" class="input-main" placeholder="Player 1" maxlength="15" />
+          <div class="btn-group">
+            <button class="btn btn-secondary" data-target="welcome-page">Kembali</button>
+            <button id="enter-name-next-btn" class="btn btn-primary" data-target="select-level-page">Lanjut</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Level Selection Page ===== -->
+      <section id="select-level-page" class="page">
+        <div class="page-content">
+          <h1 class="title">Tingkat Kesulitan</h1>
+          <div class="level-selection">
+            <button class="btn btn-level" data-difficulty="easy">Easy</button>
+            <button class="btn btn-level" data-difficulty="normal">Normal</button>
+            <button class="btn btn-level" data-difficulty="hard">Hard</button>
+          </div>
+          <button class="btn btn-secondary" data-target="enter-name-page">Kembali</button>
+        </div>
+      </section>
+
+      <!-- ===== Main Game Page ===== -->
+      <section id="game-page" class="page">
+        <div class="game-header">
+          <button id="back-to-menu" class="btn btn-secondary">Keluar</button>
+          <div class="music-selector">
+            <label for="music-select">Pilih Lagu:</label>
+            <select id="music-select">
+              <option value="">Memuat daftar lagu...</option>
+            </select>
+          </div>
+          <button id="start-btn" class="btn btn-primary">Mulai</button>
+        </div>
+
+        <div id="game-main">
+          <div id="webcam-container" class="game-container">
+            <div class="container-title">KAMERA</div>
+          </div>
+          <div id="game-canvas-container" class="game-container">
+            <div class="container-title">ARENA</div>
+            <canvas id="game-canvas" width="400" height="400"></canvas>
+          </div>
+        </div>
+
+        <div id="game-footer">
+          <p>Pose Terdeteksi: <span id="pose-result">-</span></p>
+          <button id="restart-btn" class="btn btn-primary" style="display: none">Main Lagi</button>
+        </div>
+      </section>
+
+      <!-- ===== Leaderboard Page ===== -->
+      <section id="leaderboard-page" class="page">
+        <div class="page-content">
+          <h1 class="title">Leaderboard</h1>
+          <div class="leaderboard-controls">
+            <label for="leaderboard-song-select">Lagu:</label>
+            <select id="leaderboard-song-select" class="input-main">
+              <option value="">- Semua Lagu -</option>
+            </select>
+            <label for="leaderboard-difficulty-select">Kesulitan:</label>
+            <select id="leaderboard-difficulty-select" class="input-main">
+              <option value="">- Semua Kesulitan -</option>
+              <option value="easy">Easy</option>
+              <option value="normal">Normal</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+
+          <div id="leaderboard-container">
+            <p>Memuat data leaderboard...</p>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary" data-target="welcome-page">Kembali ke Menu</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Libraries -->
+    <script src="./lib/tf.min.js"></script>
+    <script src="./lib/teachablemachine-pose.min.js"></script>
+
+    <!-- Modul aplikasi (urutan penting: config & state duluan, main.js paling akhir) -->
+    <script src="js/config.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/assets.js"></script>
+    <script src="js/beatSync.js"></script>
+    <script src="js/judgement.js"></script>
+    <script src="js/combo.js"></script>
+    <script src="js/calibration.js"></script>
+    <script src="js/leaderboard.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

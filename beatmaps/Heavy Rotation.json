@@ -1,0 +1,1917 @@
+{
+  "song": "Heavy Rotation",
+  "beats": [
+    {
+      "timestamp": 1.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 1.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 2.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 2.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 3.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 3.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 4.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 4.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 5.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 5.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 6.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 6.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 7.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 7.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 8.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 8.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 9.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 9.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 10.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 10.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 11.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 11.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 12.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 12.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 13.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 13.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 14.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 14.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 15.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 15.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 16.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 16.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 17.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 17.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 18.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 18.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 19.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 19.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 20.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 20.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 21.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 21.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 22.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 22.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 23.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 23.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 24.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 24.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 25.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 25.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 26.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 26.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 27.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 27.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 28.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 28.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 29.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 29.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 30.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 30.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 31.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 31.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 32.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 32.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 33.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 33.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 34.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 34.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 35.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 35.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 36.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 36.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 37.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 37.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 38.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 38.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 39.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 39.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 40.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 40.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 41.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 41.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 42.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 42.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 43.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 43.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 44.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 44.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 45.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 45.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 46.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 46.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 47.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 47.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 48.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 48.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 49.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 49.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 50.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 50.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 51.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 51.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 52.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 52.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 53.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 53.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 54.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 54.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 55.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 55.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 56.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 56.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 57.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 57.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 58.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 58.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 59.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 59.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 60.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 60.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 61.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 61.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 62.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 62.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 63.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 63.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 64.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 64.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 65.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 65.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 66.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 66.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 67.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 67.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 68.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 68.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 69.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 69.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 70.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 70.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 71.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 71.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 72.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 72.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 73.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 73.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 74.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 74.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 75.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 75.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 76.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 76.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 77.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 77.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 78.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 78.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 79.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 79.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 80.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 80.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 81.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 81.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 82.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 82.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 83.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 83.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 84.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 84.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 85.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 85.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 86.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 86.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 87.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 87.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 88.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 88.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 89.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 89.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 90.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 90.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 91.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 91.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 92.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 92.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 93.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 93.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 94.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 94.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 95.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 95.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 96.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 96.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 97.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 97.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 98.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 98.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 99.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 99.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 100.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 100.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 101.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 101.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 102.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 102.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 103.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 103.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 104.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 104.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 105.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 105.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 106.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 106.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 107.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 107.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 108.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 108.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 109.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 109.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 110.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 110.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 111.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 111.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 112.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 112.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 113.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 113.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 114.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 114.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 115.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 115.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 116.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 116.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 117.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 117.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 118.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 118.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 119.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 119.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 120.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 120.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 121.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 121.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 122.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 122.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 123.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 123.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 124.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 124.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 125.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 125.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 126.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 126.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 127.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 127.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 128.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 128.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 129.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 129.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 130.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 130.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 131.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 131.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 132.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 132.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 133.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 133.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 134.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 134.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 135.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 135.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 136.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 136.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 137.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 137.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 138.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 138.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 139.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 139.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 140.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 140.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 141.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 141.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 142.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 142.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 143.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 143.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 144.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 144.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 145.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 145.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 146.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 146.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 147.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 147.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 148.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 148.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 149.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 149.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 150.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 150.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 151.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 151.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 152.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 152.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 153.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 153.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 154.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 154.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 155.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 155.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 156.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 156.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 157.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 157.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 158.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 158.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 159.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 159.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 160.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 160.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 161.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 161.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 162.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 162.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 163.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 163.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 164.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 164.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 165.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 165.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 166.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 166.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 167.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 167.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 168.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 168.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 169.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 169.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 170.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 170.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 171.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 171.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 172.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 172.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 173.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 173.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 174.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 174.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 175.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 175.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 176.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 176.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 177.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 177.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 178.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 178.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 179.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 179.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 180.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 180.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 181.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 181.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 182.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 182.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 183.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 183.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 184.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 184.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 185.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 185.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 186.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 186.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 187.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 187.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 188.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 188.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 189.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 189.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 190.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 190.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 191.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 191.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 192.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 192.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 193.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 193.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 194.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 194.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 195.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 195.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 196.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 196.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 197.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 197.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 198.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 198.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 199.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 199.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 200.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 200.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 201.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 201.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 202.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 202.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 203.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 203.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 204.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 204.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 205.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 205.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 206.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 206.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 207.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 207.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 208.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 208.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 209.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 209.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 210.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 210.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 211.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 211.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 212.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 212.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 213.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 213.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 214.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 214.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 215.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 215.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 216.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 216.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 217.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 217.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 218.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 218.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 219.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 219.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 220.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 220.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 221.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 221.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 222.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 222.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 223.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 223.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 224.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 224.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 225.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 225.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 226.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 226.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 227.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 227.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 228.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 228.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 229.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 229.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 230.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 230.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 231.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 231.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 232.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 232.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 233.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 233.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 234.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 234.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 235.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 235.5,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 236.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 236.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 237.0,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 237.5,
+      "direction": "kanan"
+    },
+    {
+      "timestamp": 238.0,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 238.5,
+      "direction": "atas"
+    },
+    {
+      "timestamp": 239.0,
+      "direction": "kiri"
+    },
+    {
+      "timestamp": 239.5,
+      "direction": "atas"
+    }
+  ]
+}
